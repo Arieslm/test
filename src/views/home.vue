@@ -21,19 +21,27 @@
                 </el-menu-item>
                 <el-menu-item class="list-item" index="2">
                   <i class="el-icon-info"></i>
-                  <span slot="title">降成本专区</span>
+                  <span slot="title"><router-link to="/jcb_xunjiabiao">降成本专区</router-link></span>
                 </el-menu-item>
                 <el-menu-item class="list-item" index="3">
                   <i class="el-icon-info"></i>
-                  <span slot="title">报价参考区</span>
+                  <span slot="title"><router-link to="/xunjiabiao">报价参考区-询价表</router-link></span>
                 </el-menu-item>
                 <el-menu-item class="list-item" index="4">
                   <i class="el-icon-info"></i>
-                  <span slot="title">订单专区</span>
+                  <span slot="title"><router-link to="/pingtaifankui">报价参考区-平台反馈界面</router-link></span>
                 </el-menu-item>
                 <el-menu-item class="list-item" index="5">
                   <i class="el-icon-info"></i>
-                  <span slot="title">供应商专区</span>
+                  <span slot="title"><router-link to="/faburenwu">报价参考区-发布任务</router-link></span>
+                </el-menu-item>
+                <el-menu-item class="list-item" index="6">
+                  <i class="el-icon-info"></i>
+                  <span slot="title"><router-link to="/dingdangai">订单专区</router-link></span>
+                </el-menu-item>
+                <el-menu-item class="list-item" index="7">
+                  <i class="el-icon-info"></i>
+                  <span slot="title"><router-link to="/gongyingshang">供应商专区</router-link></span>
                 </el-menu-item>
             </el-menu>
         </div>
@@ -95,7 +103,7 @@ export default {
         display: flex;
         padding: 0 20px;
         .menu-list {
-            width: 160px;
+            // width: 160px;
             background: #67c23a;
             .list-item {
                 background: #67c23a;

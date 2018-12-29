@@ -4,7 +4,7 @@
       <el-header class="header-test">
           <div class="header-left">
               <i class="el-icon-news"></i>
-              <p>官网首页</p>
+              <p><router-link to="/home">官网首页</router-link></p>
               <div class="login"><router-link to="/login">请登录</router-link></div>
               <div class="registe"><router-link to="/registe">免费注册</router-link></div>
           </div>
